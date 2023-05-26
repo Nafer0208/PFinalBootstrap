@@ -1,6 +1,6 @@
 function OpenIMGA()
 {
-    document.getElementById("ExtraInfoCA").innerHTML = "<p>Pan echo con productos 100% organicos.</p><h5>Precio unitario:</h5><p>$0.25</p><h5>Precio al por mayor:</h5><p>$0.15</p>";
+    document.getElementById("ExtraInfoCA").innerHTML = "<p>Pan echo con productos 100% organicos, lis para cualquier uso que guste darle.</p><h5>Precio unitario:</h5><p>$0.15</p><h5>Precio al por mayor:</h5><p>$0.10</p>";
     document.getElementById("ExtraInfoCB").innerHTML = "";
     document.getElementById("ExtraInfoCC").innerHTML = "";
     document.getElementById("ExtraInfoCD").innerHTML = "";
@@ -13,7 +13,7 @@ function OpenIMGA()
 }
 function OpenIMGB()
 {
-    document.getElementById("ExtraInfoCB").innerHTML = "<p>Pan echo con productos 100% organicos.</p><h5>Precio unitario:</h5><p>$0.25</p><h5>Precio al por mayor:</h5><p>$0.15</p>";
+    document.getElementById("ExtraInfoCB").innerHTML = "<p>Muffin echo con ingredientes frescos, relleno de trozos de banana.</p><h5>Precio unitario:</h5><p>$0.25</p><h5>Precio al por mayor:</h5><p>$0.15</p>";
     document.getElementById("ExtraInfoCA").innerHTML = "";
     document.getElementById("ExtraInfoCC").innerHTML = "";
     document.getElementById("ExtraInfoCD").innerHTML = "";
@@ -26,7 +26,7 @@ function OpenIMGB()
 }
 function OpenIMGC()
 {
-    document.getElementById("ExtraInfoCC").innerHTML = "<p>Pan echo con productos 100% organicos.</p><h5>Precio unitario:</h5><p>$0.25</p><h5>Precio al por mayor:</h5><p>$0.15</p>";
+    document.getElementById("ExtraInfoCC").innerHTML = "<p>Pan de concha, con un interior suave y un exterior crujiente, perfecto para un cafe por la tarde.</p><h5>Precio unitario:</h5><p>$0.15</p><h5>Precio al por mayor:</h5><p>$0.10</p>";
     document.getElementById("ExtraInfoCA").innerHTML = "";
     document.getElementById("ExtraInfoCB").innerHTML = "";
     document.getElementById("ExtraInfoCD").innerHTML = "";
@@ -39,7 +39,7 @@ function OpenIMGC()
 }
 function OpenIMGD()
 {
-    document.getElementById("ExtraInfoCD").innerHTML = "<p>Pan echo con productos 100% organicos.</p><h5>Precio unitario:</h5><p>$0.25</p><h5>Precio al por mayor:</h5><p>$0.15</p>";
+    document.getElementById("ExtraInfoCD").innerHTML = "<p>Pan crujiente y perfecto para cualquier ocacion, se puede acompañar con .</p><h5>Precio unitario:</h5><p>$0.25</p><h5>Precio al por mayor:</h5><p>$0.15</p>";
     document.getElementById("ExtraInfoCA").innerHTML = "";
     document.getElementById("ExtraInfoCB").innerHTML = "";
     document.getElementById("ExtraInfoCC").innerHTML = "";
