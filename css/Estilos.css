@@ -1,0 +1,21 @@
+.bg-navbar{
+    background-color: #221d21;
+}
+.nav-link-space{
+    margin: 0 25px;
+}
+.link-decoration-none{
+    list-style: none;
+    margin: 25px 0;
+}
+.ft-centered{
+    text-align: center;
+}
+#Welcome h1
+{
+    text-align: center;
+}
+.card{
+    border: none;
+    margin: 0 auto;
+}
