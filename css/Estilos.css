@@ -20,5 +20,42 @@
     margin: 0 auto;
 }
 .ImgSise{
-    height: 15em;
+    width: auto;
+    height: 15rem;
+}
+#Table-position{
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid black;
+}
+.bgPersonalised{
+    background-color: rgba(0,0,0, 0.5) !important;
+}
+.btnColor{
+    margin: 0 auto;
+    background-color: #616161;
+    color: white;
+}
+.FormCompra{
+    width: fit-content;
+    margin: 0 auto;
+    padding: 1%;
+    border: 1px solid black;
+}
+.FormCompra form .inptSise{
+    width: 55%;
+}
+.FormCompra .rdSise{
+    width: 5%;
+}
+.FormCompra .Spaced{
+    margin-bottom: 2.5%;
+}
+.Error
+{
+    color: red;
+}
+#Comprovacion{
+    border: 1px solid black;
 }

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.5">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/Estilos.css">
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/Funciones.js"></script>
+    <title>Apartado de compras</title>
+</head>
+<body>
+    <div class="FormCompra">
+        <h3 class="text-center h1">Bienvenido a el apartado de compras</h3>
+        <form method="POST" onsubmit="return Validar()" name="CpNuevosCx">
+            Nombre del interesado:<br><input type="text" id="Nombre" name="Nombre" class="inptSise"><div id="NombreVacio" class="Error"></div><br>
+            Direccion del interesado: <br><input type="text" id="Direccion" class="inptSise Spaced"><div id="DireccionVacia" class="Error"></div><br>
+            Municipio de San Miguel en que reside: <select name="Municipio" id="Municipio" class="form-select-sm Spaced">
+                <option value="" selected disabled hidden>---Seleccione---</option>
+                <option value="1">San Miguel</option>
+                <option value="2">Chirilagua</option>
+                <option value="2">Quelapa</option>
+                <option value="3">Moncagua</option>
+                <option value="4">Chepeltique</option>
+                <option value="5">Lolotique</option>
+                <option value="6">Nueva Guadalupe</option>
+                <option value="7">Chinameca</option>
+            </select><div id="MunicipioVacio" class="Error"></div><br>
+            Correo electronico: (Opcional) <br><input type="email" id="Correo" class="inptSise Spaced"><br>
+            Numero de telefono: <br><input type="tel" id="NumeroTel" class="Spaced"><br>
+            <div id="TelefonoVacio" class="Error"></div>
+            Inter&eacute;s de adquisic&iacute;on <br>
+            <input type="radio" name="IAdquision" id="personal" class="rdSise" value="Consumo personal"><label for="personal">Consumo pesonal</label><br>
+            <input type="radio" name="IAdquision" id="mayoreo" class="rdSise Spaced" value="Mayoreo"><label for="mayoreo">Mayoreo</label><br>
+            <div id="MotCompraVacio" class="Error"></div>
+            &iquest;Acepta los <a href="#">teminos</a> y <a href="#">condiciones</a> de nuestra empresa?
+            <br>
+            <input type="radio" name="TyC" id="Si" class="rdSise" value="Si"><label for="Si">Si</label>
+            <input type="radio" name="TyC" id="No" class="rdSise Spaced" value="No"><label for="No">No</label>
+            <div id="TermsVacio" class="Error"></div>
+            <br>
+            <input type="reset" value="Limpiar" class="btn btn-danger">
+            <input type="submit" value="Confirmar" class="btn btn-primary">
+        </form>
+    </div>
+</body>
+</html>
