@@ -27,7 +27,6 @@
     width: 95%;
     margin: 0 auto;
     text-align: center;
-    border: 1px solid black;
 }
 .bgPersonalised{
     background-color: rgba(0,0,0, 0.5) !important;
@@ -41,7 +40,6 @@
     width: fit-content;
     margin: 0 auto;
     padding: 1%;
-    border: 1px solid black;
 }
 .FormCompra form .inptSise{
     width: 55%;
